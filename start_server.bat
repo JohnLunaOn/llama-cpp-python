@@ -1,0 +1,2 @@
+call .\venv\Scripts\activate.bat
+python -m llama_cpp.server --model ..\models\wizardlm-7b-v1.0-uncensored.ggmlv3.q5_K_M.bin --port 8300 --host 0.0.0.0 --model_alias gpt-3.5-turbo --n_threads 16 --n_gpu_layers 50
